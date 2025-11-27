@@ -1,5 +1,6 @@
 import type { Todo } from "../types/todo";
-const API = import.meta.env.VITE_API_URL;
+const API_BASE = import.meta.env.VITE_API_URL;
+const API = `${API_BASE}/todos`;
 
 // Fetch all todos
 export async function getTodos(): Promise<Todo[]> {
