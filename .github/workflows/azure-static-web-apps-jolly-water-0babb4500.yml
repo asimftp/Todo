@@ -36,13 +36,13 @@ jobs:
       # 4. Create .env.production file from secrets
       - name: Create .env.production
         run: |
-          cd ClientApp
+          cd todoui
           echo "VITE_API_BASE_URL=${{ secrets.API_URL }}" >> .env.production
 
       # 5. Build React App
       - name: Build React App
         run: |
-          cd ClientApp
+          cd todoui
           npm run build
 
       # 6. Deploy to Azure Static Web Apps (force Node 22 here also)
