@@ -9,7 +9,7 @@ A RESTful Web API built with .NET 8 that provides backend services for todo mana
 - 📚 Swagger/OpenAPI documentation for easy testing
 - 🌐 CORS enabled for frontend integration
 - ⚡ Minimal APIs for lightweight and fast endpoints
-- 🔧 .NET 8 with modern C# features
+- 🔧 .NET 8 with modern C# features.
 
 ## 🛠️ Tech Stack
 
